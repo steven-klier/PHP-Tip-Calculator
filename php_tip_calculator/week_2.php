@@ -39,10 +39,10 @@
 	
 	?>
 	
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<!-- jQuery --> 
 	<script src="js/jquery-3.2.1.min.js"></script>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- Plugins -->
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.0.0.js"></script>
 </body>
