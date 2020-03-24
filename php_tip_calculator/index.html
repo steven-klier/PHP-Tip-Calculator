@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP Tip Calculator</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<style>
+		label{
+			font-size:27px;
+		}  
+	</style>
+	
+  </head>
+  <body>
+  	<form action="week_2.php" method="post">
+	  
+			<h1 class="text-center display-3 mb-4 mt-4">Tip Calculator</h1>
+			
+			<div class="form-control text-center offset-lg-4 col-lg-4">
+		  		<label for="text" class="mt-4">Bill Total: $</label>
+		  		<input type="text" name="bill" class="input" size="10">
+		  	<br>
+				<label class="mt-4">Tip Percentage:</label>
+				<select name="tip">
+					<option value=".10">10%</option> 
+					<option value=".15">15%</option>
+					<option value=".20">20%</option>
+					<option value=".25">25%</option>
+				</select>
+			<br>
+				<button type="submit" class="btn btn-light mt-4 mb-4 btn-lg mr-2">Submit</button>
+				<button type="reset" class="btn btn-light mt-4 mb-4 btn-lg ml-2">Reset</button>
+			</div>
+		 
+	</form>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
